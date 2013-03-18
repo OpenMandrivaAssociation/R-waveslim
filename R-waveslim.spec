@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.6.4
+Version:          1.12
 Release:          1
 Summary:          Basic wavelet routines for one-, two- and three-dimensional signal processing
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/Archive/waveslim/waveslim_1.12.tar.gz
 Requires:         R-stats R-graphics R-grDevices 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-graphics R-grDevices
 
@@ -54,4 +54,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 777609
 - Import R-waveslim
 - Import R-waveslim
+
 
