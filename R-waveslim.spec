@@ -2,8 +2,8 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.6.4
-Release:          2
+Version:          1.7.1
+Release:          1
 Summary:          Basic wavelet routines for one-, two- and three-dimensional signal processing
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
