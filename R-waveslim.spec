@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.7.1
-Release:          1
+Release:          2
 Summary:          Basic wavelet routines for one-, two- and three-dimensional signal processing
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
